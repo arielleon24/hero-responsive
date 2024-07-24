@@ -28,44 +28,6 @@
   color: #61dafb;
 }
 
-.ipad-frame {
-  position: relative;
-  width: 343px;
-  height: 260.56px;
-  border: 16px solid #333; /* The iPad bezel */
-  border-radius: 36px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
-  background: #000; /* Background color for bezel */
-  overflow: hidden; /* Ensure iframe doesn't overflow */
-}
-
-.ipad-frame iframe {
-  border: none; /* Remove default iframe border */
-}
-
-.ipad-notch {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-  height: 5px;
-  background-color: #666;
-  border-radius: 5px;
-}
-
-.ipad-button {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 40px;
-  background-color: #333;
-  border-radius: 50%;
-  border: 2px solid #000;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

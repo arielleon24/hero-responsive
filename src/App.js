@@ -25,10 +25,9 @@ function App() {
       </div>
 
       <div className="py-10 gap-2 flex flex-col items-center">
-        <div className="ipad-frame">
+        <div className="relative w-[343px] h-[260.56px] border-[16px] border-gray-800 rounded-[36px] bg-black shadow-md overflow-hidden">
           <iframe
-            width="100%"
-            height="100%"
+            className="w-full h-full border-none"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Y3Yh5RYb14cm3Mo1"
             title="YouTube video player"
             frameBorder="0"
@@ -36,9 +35,10 @@ function App() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
-          <div className="ipad-notch"></div>
+          <div className="absolute top-2.5 left-1/2 transform -translate-x-1/2 w-[50px] h-[5px] bg-gray-500 rounded-lg"></div>
+          <div className="absolute bottom-2.5 left-1/2 transform -translate-x-1/2 w-[40px] h-[40px] bg-gray-800 rounded-full border-2 border-black"></div>
         </div>
-      </div> 
+      </div>
     </section>
   );
 }
