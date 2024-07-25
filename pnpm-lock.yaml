@@ -10,6 +10,15 @@ dependencies:
   '@testing-library/user-event':
     specifier: ^13.5.0
     version: 13.5.0(@testing-library/dom@10.4.0)
+  clsx:
+    specifier: ^2.1.1
+    version: 2.1.1
+  framer-motion:
+    specifier: ^11.3.17
+    version: 11.3.17(react-dom@18.3.1)(react@18.3.1)
+  mini-svg-data-uri:
+    specifier: ^1.4.4
+    version: 1.4.4
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -19,6 +28,9 @@ dependencies:
   react-scripts:
     specifier: ^5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.24.7)(@babel/plugin-transform-react-jsx@7.24.7)(eslint@8.57.0)(react@18.3.1)(typescript@5.5.4)
+  tailwind-merge:
+    specifier: ^2.4.0
+    version: 2.4.0
   web-vitals:
     specifier: ^2.1.4
     version: 2.1.4
@@ -3823,6 +3835,11 @@ packages:
       wrap-ansi: 7.0.0
     dev: false
 
+  /clsx@2.1.1:
+    resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
+    engines: {node: '>=6'}
+    dev: false
+
   /co@4.6.0:
     resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}
     engines: {iojs: '>= 1.0.0', node: '>= 0.12.0'}
@@ -5499,6 +5516,25 @@ packages:
 
   /fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
+    dev: false
+
+  /framer-motion@11.3.17(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-LZcckvZL8Rjod03bud8LQcp+R0PLmWIlOSu+NVc+v6Uh43fQr4IBsEAX7sSn7CdBQ1L0fZ/IqSXZVPnGFSMxHw==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      tslib: 2.6.3
     dev: false
 
   /fresh@0.5.2:
@@ -7373,6 +7409,11 @@ packages:
       schema-utils: 4.2.0
       tapable: 2.2.1
       webpack: 5.93.0
+    dev: false
+
+  /mini-svg-data-uri@1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
     dev: false
 
   /minimalistic-assert@1.0.1:
@@ -9915,6 +9956,10 @@ packages:
 
   /symbol-tree@3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
+    dev: false
+
+  /tailwind-merge@2.4.0:
+    resolution: {integrity: sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==}
     dev: false
 
   /tailwindcss@3.4.6:

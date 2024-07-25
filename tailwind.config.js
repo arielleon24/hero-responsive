@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         customBlue: '#177EE5',
         neutralBlack: '#121212',
+        neutralGrey: '#212121',
         appBackground: '#F5F5F4',
         badgeGroup: '#EEEEEE',
       },
