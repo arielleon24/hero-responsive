@@ -10,16 +10,19 @@ const [isPlaying, setIsPlaying] = useState(false)
   return (
     <main className="flex flex-col justify-center px-4 py-20 mx-auto w-full bg-appBackground leading-[140%] max-w-[480px] md:max-w-[1440px]">
       <BadgeGroup />
-      <h1 className="flex mt-10 text-5xl mx-auto font-semibold text-center leading-[53px] text-neutralBlack md:max-w-[804px] md:leading-[]">
-        The ultimate influencer discovery platform.
-      </h1>
-      <p className="mt-6 text-lg text-center text-neutral-800">
-        So good you'll keep it forever.
-      </p>
-      <button className='px-6 py-3 text-base text-white rounded border bg-neutralBlack hover:bg-slate-700 transition-colors duration-30 self-center mt-10'>
-      Book a demo
-      </button>
-      <div className="flex overflow-hidden relative flex-col self-stretch pt-20 mt-0 w-full fill-neutral-100 min-h-[764px] stroke-[1px] stroke-stone-200 stroke-opacity-70 max-md:max-w-full">
+      <div className="flex flex-col gap-6">
+        <h1 className="flex mt-10 text-5xl mx-auto font-semibold text-center leading-[53px] text-neutralBlack md:max-w-[804px] md:leading-[]">
+          The ultimate influencer discovery platform.
+        </h1>
+        <p className="mt-6 text-lg text-center text-neutral-800">
+          So good you'll keep it forever.
+        </p>
+        <button className='px-6 py-3 text-base text-white rounded border bg-neutralBlack hover:bg-slate-700 transition-colors duration-30 self-center'>
+        Book a demo
+        </button>
+      </div>
+      {/* PUT BACKGROUND HERE */}
+      <div className="flex overflow-hidden relative">
         <img/>
         <div className="mt-20 w-full h-full relative min-h-[260.56px] ">
       {!isPlaying ? (
