@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedShinyText from "../magicui/animated-shiny-text";
 
 function BadgeGroup() {
   return (
@@ -6,7 +7,9 @@ function BadgeGroup() {
       <button className="px-2.5 py-0.5 text-center text-customBlue bg-white rounded-lg border border-customBlue border-solid hover:text-white hover:bg-blue-500 transition-colors duration-300 hover:shadow-lg hover:scale-105">
         Join us
       </button>
-      <div className="my-auto text-neutralBlack">✨ Come join us at Convention</div>
+      <AnimatedShinyText className="my-auto">
+        <span>✨ Come join us at Convention</span>
+      </AnimatedShinyText>
     </div>
   );
 }
