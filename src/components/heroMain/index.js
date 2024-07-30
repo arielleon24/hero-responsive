@@ -12,10 +12,10 @@ const [isLoaded, setIsLoaded] =useState(false)
     <main className="flex flex-col justify-center px-4 py-20 mx-auto w-full bg-appBackground leading-[140%] max-w-[480px] md:max-w-[1440px]">
       <BadgeGroup />
       <div className="flex flex-col gap-6 relative z-10">
-        <h1 className="flex mt-10 text-5xl mx-auto font-semibold text-center leading-[53px] text-neutralBlack md:max-w-[804px] md:leading-[]">
+        <h1 className="flex mt-10 text-5xl mx-auto font-semibold text-center leading-[53px] text-neutralBlack md:text-6xl md:max-w-[804px] md:leading-[]">
           The ultimate influencer discovery platform.
         </h1>
-        <p className="mt-6 text-lg text-center text-neutral-800">
+        <p className="mt-6 text-lg text-center text-neutralGrey">
           So good you'll keep it forever.
         </p>
         <button className='z-10 px-6 py-3 text-base text-white rounded border bg-neutralBlack duration-300 self-center hover:text-neutralBlack hover:bg-white hover:border-black transition-colors duration-800 hover:shadow-lg hover:scale-105'>
