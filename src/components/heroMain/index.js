@@ -18,8 +18,8 @@ const [isLoaded, setIsLoaded] =useState(false)
         <p className="mt-6 text-lg text-center text-neutral-800">
           So good you'll keep it forever.
         </p>
-        <button className='z-10 px-6 py-3 text-base text-white rounded border bg-neutralBlack hover:bg-slate-700 transition-colors duration-30 self-center'>
-        Book a demo
+        <button className='z-10 px-6 py-3 text-base text-white rounded border bg-neutralBlack duration-300 self-center hover:text-neutralBlack hover:bg-white hover:border-black transition-colors duration-800 hover:shadow-lg hover:scale-105'>
+          Book a demo
         </button>
       </div>
       {/* TOFIX GRID should fit entire width */}
@@ -35,7 +35,7 @@ const [isLoaded, setIsLoaded] =useState(false)
             />
             <button 
               onClick={() => setIsPlaying(true)} 
-              className="absolute inset-0 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity duration-300"
+              className="absolute inset-0 flex items-center justify-center opacity-80 hover:scale-105 hover:opacity-100 transition-opacity duration-300"
             >
               <svg width="137" height="137" viewBox="0 0 137 137" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="0.5" y="0.78125" width="136" height="136" rx="68" fill="#97BEF9" fill-opacity="0.3"/>
